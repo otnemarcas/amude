@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<specialAbility type="Passive" friendly="true">
+  <name>Defender</name>
+  <rootName>defense</rootName>
+  <range>1</range>
+  <imageRootDirectory>Image/Animation/SpecialAbility/Defense/</imageRootDirectory>
+
+  <effect>
+    <defense>1</defense>
+  </effect>
+
+  <animation type="StaticRight" duration="1,5" frames="6" isCyclic="false">
+    <!-- <sound name="effect" isCyclic="false" /> -->
+  </animation>
+</specialAbility>

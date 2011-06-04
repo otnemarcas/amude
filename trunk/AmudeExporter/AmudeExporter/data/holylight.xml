@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entity>
+  <name>HolyLight</name>
+  <rootName>holylight</rootName>
+  <imageRootDirectory>Image/Animation/Projectile/HolyLight/</imageRootDirectory>
+  <defaultAnimationFrames>15</defaultAnimationFrames>
+  <defaultVelocity>400</defaultVelocity>
+
+  <animations>
+	  <animation type="HitRight" duration="1" isCyclic="false" frames="7" ready="1">
+		  <!-- <sound name="effect" isCyclic="false" /> -->
+	  </animation>
+
+	  <animation type="Right" duration="0,5" isCyclic="true" frames="7" movementBehavior="Act" onFinalize="Hide">
+		  <internal animationType="HitRight"/>
+		  <!-- <sound name="effect" isCyclic="false" /> -->
+	  </animation>
+	  
+    <animation type="AttackRight" duration="1" movementBehavior="Delegate" isCyclic="false" frames="8" onFinalize="Hide">
+		<sound name="attack" isCyclic="false" />
+		<internal animationType="Right"/>
+    </animation>
+  </animations>
+</entity>

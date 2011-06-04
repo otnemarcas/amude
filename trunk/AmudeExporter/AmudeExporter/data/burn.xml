@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<specialAbility type="Passive" friendly="false">
+  <name>Queimar</name>
+  <rootName>burn</rootName>
+  <range>2</range>
+  <imageRootDirectory>Image/Animation/SpecialAbility/Burn/</imageRootDirectory>
+
+  <effect>
+    <health>-3</health>
+  </effect>
+
+  <animation type="StaticRight" duration="1,5" frames="6" isCyclic="false">
+    <!-- <sound name="effect" isCyclic="false" /> -->
+  </animation>
+</specialAbility>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entity>
+  <name>Rock</name>
+  <rootName>rock</rootName>
+  <imageRootDirectory>Image/Animation/Environment/Rock/1/</imageRootDirectory>
+  <defaultAnimationFrames>1</defaultAnimationFrames>
+  <defaultVelocity>0</defaultVelocity>
+
+  <animations>
+    <animation type="StaticRight" duration="-1" isCyclic="false"> </animation>
+  </animations>
+</entity>

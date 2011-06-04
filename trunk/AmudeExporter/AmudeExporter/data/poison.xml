@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<specialAbility type="Attack" friendly="false">
+  <name>Envenenar</name>
+  <rootName>poison</rootName>  
+  <imageRootDirectory>Image/Animation/SpecialAbility/Poison/</imageRootDirectory>
+
+  <percentage>0,3</percentage>
+  
+  <effect>
+    <health>-4</health>
+    <duration>3</duration>
+  </effect>
+
+  <animation type="StaticRight" duration="1,5" frames="15" isCyclic="false">
+    <!-- <sound name="effect" isCyclic="false" /> -->
+  </animation>
+</specialAbility>

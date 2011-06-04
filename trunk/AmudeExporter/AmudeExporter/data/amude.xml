@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map width="20" height="17">
+  <external class="Terrains" rootName="grass-1" alias="gr01"/>
+  <external class="Terrains" rootName="grass-2" alias="gr02" />
+  <external class="Terrains" rootName="grass-3" alias="gr03" />
+  
+  <external class="Terrains" rootName="grass-soil-1" alias="gs01" />
+  <external class="Terrains" rootName="grass-soil-2" alias="gs02" />
+  <external class="Terrains" rootName="grass-soil-3" alias="gs03" />
+  <external class="Terrains" rootName="grass-soil-4" alias="gs04" />
+  <external class="Terrains" rootName="grass-soil-5" alias="gs05" />
+  <external class="Terrains" rootName="grass-soil-6" alias="gs06" />
+  <external class="Terrains" rootName="grass-soil-7" alias="gs07" />
+  <external class="Terrains" rootName="grass-soil-8" alias="gs08" />
+  <external class="Terrains" rootName="grass-soil-9" alias="gs09" />
+  <external class="Terrains" rootName="grass-soil-10" alias="gs10" />
+  <external class="Terrains" rootName="grass-soil-11" alias="gs11" />
+  <external class="Terrains" rootName="grass-soil-12" alias="gs12" />
+  <external class="Terrains" rootName="grass-soil-13" alias="gs13" />
+  <external class="Terrains" rootName="grass-soil-14" alias="gs14" />
+
+  <external class="Terrains" rootName="soil-1" alias="so01" />
+  <external class="Terrains" rootName="soil-2" alias="so02" />
+  <external class="Terrains" rootName="soil-3" alias="so03" />
+  
+  <external class="Terrains" rootName="soil-grass-1" alias="sg01" />
+  <external class="Terrains" rootName="soil-grass-2" alias="sg02" />
+  <external class="Terrains" rootName="soil-grass-3" alias="sg03" />
+  <external class="Terrains" rootName="soil-grass-4" alias="sg04" />
+  <external class="Terrains" rootName="soil-grass-5" alias="sg05" />
+  <external class="Terrains" rootName="soil-grass-6" alias="sg06" />
+  <external class="Terrains" rootName="soil-grass-7" alias="sg07" />
+  <external class="Terrains" rootName="soil-grass-8" alias="sg08" />
+  <external class="Terrains" rootName="soil-grass-9" alias="sg09" />
+  <external class="Terrains" rootName="soil-grass-10" alias="sg10" />
+  <external class="Terrains" rootName="soil-grass-11" alias="sg11" />
+  <external class="Terrains" rootName="soil-grass-12" alias="sg12" />
+  <external class="Terrains" rootName="soil-grass-13" alias="sg13" />
+  <external class="Terrains" rootName="soil-grass-14" alias="sg14" />
+
+
+	<external class="Environment" rootName="rock" alias="ro1" />
+  <external class="Environment" rootName="rock2" alias="ro2" />
+  <external class="Environment" rootName="rock3" alias="ro3" />
+  <external class="Environment" rootName="rock4" alias="ro4" />
+  <external class="Environment" rootName="bole" alias="bo1" />
+  <external class="Environment" rootName="bole2" alias="bo2" />
+  <external class="Environment" rootName="bole3" alias="bo3" />
+  <external class="Environment" rootName="bole4" alias="bo4" />
+  
+  <external class="Environment" rootName="skydome" alias="bg" />
+  <external class="Environment" rootName="skydome2" alias="bg2" />
+  <external class="Environment" rootName="skydome3" alias="bg3" />
+
+  <terrain>
+    [so01][so02][so03][sg03][gr01][gr03][gr01][gr01][gr01][gr01][gs09][so01][so03][so01][so01][so01][so03][so01][so01][so01]
+    [sg10][sg10][sg11][sg04][gr01][gr01][gr02][gr01][gr01][gr01][gr01][gr02][gr01][sg10][sg10][sg10][sg11][sg10][sg10][sg10]
+    [so01][so01][so01][sg01][gr01][gr01][gr01][gr01][gr01][gr01][gr01][gr03][gr02][gs07][so01][so01][so01][so03][so01][so01]
+    [so01][so01][so01][sg02][gr01][gr01][gr01][gr01][gr01][gr01][gr02][gr01][gr01][gs12][so01][so01][so01][so01][so01][so01]
+    [so01][so01][so01][sg01][gr02][gr01][gr01][gr01][gr01][gr01][gr01][gr01][gr01][gs02][so01][so02][so01][so01][so01][so01]
+    [so01][so01][so03][sg01][gr01][gr01][gr03][gr01][gr01][gr01][gr01][gr01][gr01][gs02][so01][so01][so01][so01][so01][so01]
+    [so03][so01][so02][sg03][gr01][gr01][gr02][gr01][gr01][gr01][gr01][gr01][gr03][gs01][so01][so01][so01][so01][so01][so01]
+    [so01][so01][so01][sg03][gr01][gr01][gr01][gr01][gr01][gr01][gr01][gr01][gr01][gs13][so01][so01][so01][so01][so01][so01]
+    [so01][so01][so01][sg02][gr03][gr01][gr01][gr01][gr01][gr01][gr01][gr02][gs06][so03][so01][so01][so01][so01][so01][so01]
+    [so01][so01][so01][sg01][gr01][gr01][gr01][gr01][gr01][gr01][gr01][gs04][so01][so01][so01][so01][so01][so01][so01][so01]
+    [so02][so01][so02][sg01][gr01][gr01][gr01][gr03][gr01][gr01][gs05][so01][so01][so01][so01][so01][so01][so01][so01][so01]
+    [so01][so01][so01][sg02][gr01][gr01][gr01][gr01][gr01][gs04][so01][so01][so01][so01][so02][so01][so01][so01][so01][so01]
+    [so01][so01][so01][sg01][gr01][gr01][gr01][gr01][gs14][so01][so01][so01][so01][so03][so01][so01][sg14][gs10][gs10][gs10]
+    [so01][so01][so01][sg12][gr01][gr01][gr01][gr02][gr01][gs12][so01][so01][so01][so01][so01][sg13][gr01][gr01][gr01][gr01]
+    [so03][so01][sg08][gr02][gr01][gr01][gr01][gr01][gr01][gs03][so01][so01][so01][so01][so01][sg12][gr01][gr01][gr03][gr01]
+    [so02][sg07][gr01][gr03][gr01][gr01][gr03][gr01][gr01][gs01][so01][so03][so01][so01][sg08][gr01][gr01][gr01][gr01][gr01]
+    [sg07][gr01][gr01][gr01][gr01][gr01][gr01][gr01][gr01][gs02][so01][so02][so01][sg07][gr01][gr01][gr02][gr01][gr01][gr01]
+  </terrain>
+
+  <entities>
+    [bg][bg2][bg3][bg][bg2][bg3][bg][bg2][bg3][bg][bg2][bg3][bg][bg2][bg3][bg][bg2][bg3][bg][bg2]
+    [.][.][.][ro1][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.]
+    [.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.]
+    [.][.][.][.][.][ro1][.][.][.][.][.][.][.][.][.][.][.][.][.][.]
+    [.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][ro3][.][.][.][.]
+    [.][.][.][.][.][.][.][.][.][.][ro2][.][.][.][.][.][.][.][.][.]
+    [.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.]
+    [.][.][.][ro2][ro3][.][.][.][.][.][.][.][.][.][.][ro1][.][.][.][.]
+    [.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.]
+    [.][.][.][.][.][.][.][ro3][.][.][.][.][.][.][.][.][.][.][.][.]
+    [.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][ro1][.][.][.][.]
+    [.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.]
+    [.][.][.][.][.][.][.][.][.][ro3][.][.][.][.][.][.][ro1][.][.][.]
+    [.][.][.][.][.][.][ro2][.][.][.][.][.][.][.][.][.][.][.][.][.]
+    [.][.][.][ro4][.][.][.][.][.][.][.][.][.][.][ro2][.][.][.][.][.]
+    [.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.][.]
+    [.][.][.][.][.][.][.][.][.][.][.][.][ro4][.][.][.][.][.][.][.]
+  </entities>
+</map>

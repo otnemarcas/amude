@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entity>
+  <name>Arrow</name>
+  <rootName>arrow</rootName>
+  <imageRootDirectory>Image/Animation/Projectile/Arrow/</imageRootDirectory>
+  <defaultAnimationFrames>28</defaultAnimationFrames>
+  <defaultVelocity>700</defaultVelocity>
+
+  <animations>
+    <animation type="AttackUp" duration="0,3" isCyclic="true">
+      <sound name="attack" isCyclic="false" />
+    </animation>
+
+    <animation type="AttackDown" duration="0,3" isCyclic="true">
+      <sound name="attack" isCyclic="false" />
+    </animation>
+
+    <animation type="AttackLeft" duration="0,3" isCyclic="true">
+      <sound name="attack" isCyclic="false" />
+    </animation>
+
+    <animation type="AttackRight" duration="0,3" isCyclic="true">
+      <sound name="attack" isCyclic="false" />
+    </animation>
+  </animations>
+</entity>

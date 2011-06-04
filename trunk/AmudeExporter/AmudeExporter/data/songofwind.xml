@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<specialAbility type="Passive" friendly="true">
+  <name>Canção do Vento</name>
+  <rootName>songofwind</rootName>
+  <range>2</range>
+  <imageRootDirectory>Image/Animation/SpecialAbility/SongOfWind/</imageRootDirectory>
+
+  <effect>
+    <initiative>2</initiative>
+  </effect>
+
+  <animation type="StaticRight" duration="1,5" frames="8" isCyclic="false">
+    <!-- <sound name="effect" isCyclic="false" /> -->
+  </animation>
+</specialAbility>

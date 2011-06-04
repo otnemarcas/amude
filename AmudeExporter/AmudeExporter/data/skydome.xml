@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entity>
+  <name>SkyDome</name>
+  <rootName>skydome</rootName>
+  <imageRootDirectory>Image/Animation/Environment/Skydome/1/</imageRootDirectory>
+  <defaultAnimationFrames>1</defaultAnimationFrames>
+  <defaultVelocity>0</defaultVelocity>
+
+  <animations>
+    <animation type="StaticRight" duration="-1" isCyclic="false"> </animation>
+  </animations>
+</entity>

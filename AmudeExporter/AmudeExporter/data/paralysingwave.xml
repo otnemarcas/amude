@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<specialAbility type="Attack" friendly="false">
+  <name>Onda Paralisante</name>
+  <rootName>paralysingwave</rootName>  
+  <imageRootDirectory>Image/Animation/SpecialAbility/ParalysingWave/</imageRootDirectory>
+
+  <percentage>0,15</percentage>
+  
+  <effect>
+    <initiative>-2</initiative>
+    <agility>-1</agility>
+    <duration>2</duration>
+  </effect>
+
+  <animation type="StaticRight" duration="1,5" frames="1" isCyclic="false">
+    <!-- <sound name="effect" isCyclic="false" /> -->
+  </animation>
+</specialAbility>

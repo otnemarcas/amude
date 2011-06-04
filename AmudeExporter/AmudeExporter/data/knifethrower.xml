@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entity>
+  <name>Atirador de Facas</name>
+  <rootName>knifethrower</rootName>
+  <imageRootDirectory>Image/Animation/Character/KnifeThrower/</imageRootDirectory>
+  <defaultAnimationFrames>15</defaultAnimationFrames>
+  <defaultVelocity>115</defaultVelocity>
+
+  <character>
+    <description>Em suas mãos facas se tornam armas ainda mais letais, alcançado adversários com precisão extrema até mesmo a certa distância.</description>
+    <health>80</health>
+    <attack type="ranged" min="27" max="32" range="3"/>
+    <defense min="2" max="3" />
+    <agility>6</agility>
+    <initiative>14</initiative>
+    <projectileVelocity>500</projectileVelocity>
+  </character>
+ 
+  <animations>
+    <animation type="StaticRight" duration="-1" frames="1" isCyclic="false"> </animation>
+
+    <animation type="StaticLeft" duration="-1" frames="1" isCyclic="false"> </animation>
+
+    <animation type="NoneRight" duration="1,1" isCyclic="false"> </animation>
+
+    <animation type="NoneLeft" duration="1,1" isCyclic="false"> </animation>
+
+    <animation type="Up" duration="1,5" isCyclic="true">
+      <sound name="walk" isCyclic="true" />
+    </animation>
+
+    <animation type="Down" duration="1,5" isCyclic="true" frames="30">
+      <sound name="walk" isCyclic="true" />
+    </animation>
+
+    <animation type="Left" duration="1,5" isCyclic="true">
+      <sound name="walk" isCyclic="true" />
+    </animation>
+
+    <animation type="Right" duration="1,5" isCyclic="true">
+      <sound name="walk" isCyclic="true" />
+    </animation>
+
+    <animation type="AttackUp" duration="1,5" isCyclic="false" Ready="7" movementBehavior="Delegate">
+      <sound name="attack" isCyclic="false" />
+      <external class="Projectiles" rootName="knife" animationType="AttackUp" />
+    </animation>
+
+    <animation type="AttackDown" duration="1,5" isCyclic="false" Ready="7" movementBehavior="Delegate">
+      <sound name="attack" isCyclic="false" />
+      <external class="Projectiles" rootName="knife" animationType="AttackDown" />
+    </animation>
+
+    <animation type="AttackLeft" duration="1,5" isCyclic="false" Ready="7" movementBehavior="Delegate">
+      <sound name="attack" isCyclic="false" />
+      <external class="Projectiles" rootName="knife" animationType="AttackLeft" />
+    </animation>
+
+    <animation type="AttackRight" duration="1,5" isCyclic="false" Ready="7" movementBehavior="Delegate">
+      <sound name="attack" isCyclic="false" />
+      <external class="Projectiles" rootName="knife" animationType="AttackRight" />
+    </animation>
+
+    <animation type="HitRight" duration="1,3" frames="10" isCyclic="false">
+      <sound name="hit" isCyclic="false" />
+    </animation>
+
+    <animation type="HitLeft" duration="1,3" frames="10" isCyclic="false">
+      <sound name="hit" isCyclic="false" />
+    </animation>
+
+    <animation type="DieRight" duration="1,7" frames="20" isCyclic="false">
+      <sound name="die" isCyclic="false" />
+    </animation>
+
+    <animation type="DieLeft" duration="1,7" frames="20" isCyclic="false">
+      <sound name="die" isCyclic="false" />
+    </animation>
+
+    <animation type="DeadRight" duration="-1" frames="1" isCyclic="false"> </animation>
+
+    <animation type="DeadLeft" duration="-1" frames="1" isCyclic="false"> </animation>
+  </animations>
+</entity>

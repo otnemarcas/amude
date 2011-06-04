@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<specialAbility type="Passive" friendly="true">
+  <name>Aura de Cura</name>
+  <rootName>healingaura</rootName>
+  <range>2</range>
+  <imageRootDirectory>Image/Animation/SpecialAbility/HealingAura/</imageRootDirectory>
+
+  <effect>
+    <health>5</health>
+  </effect>
+
+  <animation type="StaticRight" duration="1,5" frames="7" isCyclic="false">
+    <!-- <sound name="effect" isCyclic="false" /> -->
+  </animation>
+</specialAbility>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entity>
+  <name>DeathWave</name>
+  <rootName>deathwave</rootName>
+  <imageRootDirectory>Image/Animation/Projectile/DeathWave/</imageRootDirectory>
+  <defaultAnimationFrames>15</defaultAnimationFrames>
+  <defaultVelocity>400</defaultVelocity>
+
+  <animations>
+	  <animation type="HitRight" duration="1" isCyclic="false" frames="6" ready="1">
+		  <!-- <sound name="effect" isCyclic="false" /> -->
+	  </animation>
+
+	  <animation type="Up" duration="0,5" isCyclic="true" frames="7" movementBehavior="Act" onFinalize="Hide">
+		  <internal animationType="HitRight"/>
+		  <!-- <sound name="effect" isCyclic="false" /> -->
+	  </animation>
+
+	  <animation type="Down" duration="0,5" isCyclic="true" frames="7" movementBehavior="Act" onFinalize="Hide">
+		  <internal animationType="HitRight"/>
+		  <!-- <sound name="effect" isCyclic="false" /> -->
+	  </animation>
+	  
+	  <animation type="Left" duration="0,5" isCyclic="true" frames="7" movementBehavior="Act" onFinalize="Hide">
+		  <internal animationType="HitRight"/>
+		  <!-- <sound name="effect" isCyclic="false" /> -->
+	  </animation>
+
+	  <animation type="Right" duration="0,5" isCyclic="true" frames="7" movementBehavior="Act" onFinalize="Hide">
+		  <internal animationType="HitRight"/>
+		  <!-- <sound name="effect" isCyclic="false" /> -->
+	  </animation>
+	  
+    <animation type="AttackUp" duration="1" movementBehavior="Delegate" isCyclic="false" frames="5" onFinalize="Hide">
+      <sound name="attack" isCyclic="false" />
+		<internal animationType="Up"/>
+    </animation>
+
+    <animation type="AttackDown" duration="1" movementBehavior="Delegate" isCyclic="false" frames="5" onFinalize="Hide">
+      <sound name="attack" isCyclic="false" />
+		<internal animationType="Down"/>
+    </animation>
+
+    <animation type="AttackLeft" duration="1" movementBehavior="Delegate" isCyclic="false" frames="5" onFinalize="Hide">
+      <sound name="attack" isCyclic="false" />
+		<internal animationType="Left"/>
+    </animation>
+
+    <animation type="AttackRight" duration="1" movementBehavior="Delegate" isCyclic="false" frames="5" onFinalize="Hide">
+      <sound name="attack" isCyclic="false" />
+		<internal animationType="Right"/>
+    </animation>
+  </animations>
+</entity>

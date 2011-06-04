@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entity>
+  <name>Knife</name>
+  <rootName>knife</rootName>
+  <imageRootDirectory>Image/Animation/Projectile/Knife/</imageRootDirectory>
+  <defaultAnimationFrames>8</defaultAnimationFrames>
+  <defaultVelocity>500</defaultVelocity>
+
+  <animations>
+    <animation type="AttackUp" duration="0,3" isCyclic="true" frames="13">
+    <!--      <sound name="attack" isCyclic="false" /> -->
+    </animation>
+
+    <animation type="AttackDown" duration="0,3" isCyclic="true" frames="13">
+      <!--      <sound name="attack" isCyclic="false" /> -->
+    </animation>
+
+    <animation type="AttackLeft" duration="0,3" isCyclic="true">
+      <!--      <sound name="attack" isCyclic="false" /> -->
+    </animation>
+
+    <animation type="AttackRight" duration="0,3" isCyclic="true">
+      <!--      <sound name="attack" isCyclic="false" /> -->
+    </animation>
+  </animations>
+</entity>

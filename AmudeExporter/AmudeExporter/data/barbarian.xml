@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entity>
+  <name>Bárbaro</name>
+  <rootName>barbarian</rootName>
+  <imageRootDirectory>Image/Animation/Character/Barbarian/</imageRootDirectory>
+  <defaultAnimationFrames>15</defaultAnimationFrames>
+  <defaultVelocity>115</defaultVelocity>
+
+  <character specialAbility="shatterdefense">
+    <description>Com seu pesado machado pode infligir muito dano, mas é bastante lento e pode ter dificuldade contra unidades mais leves, porém os adversários temerão enfrentá-lo a curta distância.</description>
+    <health>120</health>
+    <attack type="melee" min="40" max="45" />
+    <defense min="0" max="2" />
+    <agility>5</agility>
+    <initiative>10</initiative>
+  </character>
+
+  <animations>
+    <animation type="StaticRight" duration="-1" frames="1" isCyclic="false"> </animation>
+
+    <animation type="StaticLeft" duration="-1" frames="1" isCyclic="false"> </animation>
+
+    <animation type="NoneRight" duration="1,1" isCyclic="false"> </animation>
+
+    <animation type="NoneLeft" duration="1,1" isCyclic="false"> </animation>
+
+    <animation type="Up" duration="1,5" isCyclic="true">
+      <sound name="walk" isCyclic="true" />
+    </animation>
+
+    <animation type="Down" duration="1,5" isCyclic="true" frames="30">
+      <sound name="walk" isCyclic="true" />
+    </animation>
+
+    <animation type="Left" duration="1,5" isCyclic="true">
+      <sound name="walk" isCyclic="true" />
+    </animation>
+
+    <animation type="Right" duration="1,5" isCyclic="true">
+      <sound name="walk" isCyclic="true" />
+    </animation>
+
+    <animation type="AttackUp" duration="1,5" isCyclic="false" ready="7">
+      <sound name="attack" isCyclic="false" />
+    </animation>
+
+    <animation type="AttackDown" duration="1,5" isCyclic="false" ready="7">
+      <sound name="attack" isCyclic="false" />
+    </animation>
+
+    <animation type="AttackLeft" duration="1,5" isCyclic="false" ready="7">
+      <sound name="attack" isCyclic="false" />
+    </animation>
+
+    <animation type="AttackRight" duration="1,5" isCyclic="false" ready="7">
+      <sound name="attack" isCyclic="false" />
+    </animation>
+
+    <animation type="HitRight" duration="1,3" frames="10" isCyclic="false">
+      <sound name="hit" isCyclic="false" />
+    </animation>
+
+    <animation type="HitLeft" duration="1,3" frames="10" isCyclic="false">
+      <sound name="hit" isCyclic="false" />
+    </animation>
+
+    <animation type="DieRight" duration="1,7" frames="20" isCyclic="false">
+      <sound name="die" isCyclic="false" />
+    </animation>
+
+    <animation type="DieLeft" duration="1,7" frames="20" isCyclic="false">
+      <sound name="die" isCyclic="false" />
+    </animation>
+
+    <animation type="DeadRight" duration="-1" frames="1" isCyclic="false"> </animation>
+
+    <animation type="DeadLeft" duration="-1" frames="1" isCyclic="false"> </animation>
+  </animations>
+</entity>

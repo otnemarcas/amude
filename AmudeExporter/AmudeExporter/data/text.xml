@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<amudeText>
+  <text key="script">
+    <p>Situada geograficamente entre Lethus e Gothur, Amude é um antigo reino respeitado econômica e culturalmente por seus vizinhos. Graças à personalidade e as habilidades diplomáticas de Hector, o rei de Amude, a influência deste reino tem alcançado regiões cada vez mais distantes.</p>
+    <p>Atualmente Lucius, o regente de Lethus, vem tentando utilizar as estradas de Amude e Gothur para ter acesso às rotas marítimas, uma vez que uma grande cadeia de montanhas bloqueia toda a extensão leste do continente.</p>
+    <p>Porém Hector, de Amude, e Cronum, de Gothur, não pretendem permitir a passagem dos carregamentos de originários de Lethus. Essa posição pode ser compreendida por Lethus ser o maior fornecedor de armas de Antor que está em guerra com Barri, que por sua vez é aliado comercial de Amude.</p>
+    <p>Embora procure manter-se em posição neutra em relação ao conflito distante, Hector sabe que se os carregamentos de armas chegarem até Antor, Barri ficará destruída e não manterá o nível de comércio atual com Amude.</p>
+    <p>Apesar disso, até mesmo pela proximidade, Lethus também é um importante parceiro comercial de Amude, e alguma ação ofensiva pode prejudicar esta parceria.</p>
+    <p>Já Cronum, o governante de Gothur, possui uma posição mais ofensiva contra Lethus, e por vezes, já deixou explícito que pretende atacar o território de Lethus caso este continue a fornecer armas que incentivem o conflito ao sul.</p>
+    <p>Caso Cronum resolva invadir Lethus, os exércitos de ambos os países usarão as estradas de Amude como caminho, mesmo contra a vontade de Hector, e certamente batalhas ocorrerão dentro do território de seu reino.</p>
+    <p>Para tentar se proteger dessa complicada situação política, e também evitar batalhas dentro de suas fronteiras, o governante de Amude resolve promover uma competição, onde os melhores estrategistas de seu reino são convocados para demonstrar suas habilidades. Aquele que sair vitorioso deverá liderar um pequeno exército altamente capacitado para abafar incursões e batalhas em Amude, porém sem carregar a bandeira do reino, uma vez que o objetivo de Hector é ser visto como não interferindo nas disputas.</p>
+    <p>Como um dos convocados a participar da seleção, você deve montar seu exército de forma a conseguir superar os mais experientes estrategistas do reino, e provar que tem qualidades suficientes para ajudar e fortalecer o nome e a história de Amude.</p>
+    <p>Para ajudá-lo a alcançar seu objetivo, dez entre os melhores combatentes de Amude se ofereceram para estar sob seu comando. Porém, desses você deve escolher apenas seis, uma vez que as regras do torneio assim exigem.</p>
+  </text>
+  
+  <text key="end_victory">
+    <p>Você conseguiu uma vitória gloriosa sobre</p>
+  </text>
+    
+  <text key="end_defeat">
+    <p>Você foi derrotado por</p>
+    <p>Seus soldados abandonaram sua causa.</p>
+  </text>
+</amudeText>

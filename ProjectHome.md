@@ -1,0 +1,1 @@
+Amude is a multiplayer medieval fantasy turn-based strategy game developed under the C# language using the Microsoft XNA Framework.
